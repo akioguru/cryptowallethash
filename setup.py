@@ -5,15 +5,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='mikes_toolbox',                           # should match the package folder
-    packages=['mikes_toolbox'],                     # should match the package folder
-    version='0.0.3',                                # important for updates
+    name='cryptowallethash',                           # should match the package folder
+    packages=['cryptowallethash'],                     # should match the package folder
+    version='0.0.4',                                # important for updates
     license='MIT',                                  # should match your chosen license
     description='crypto hash',
     long_description=long_description,              # loads your README.md
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
-    author='Mike Huls',
-    author_email='mikehuls42@gmail.com',
+    author='akiyo',
+    author_email='jamesdream0724@gmail.com',
     url='https://github.com/akioguru/cryptohash', 
     project_urls = {                                # Optional
         "Bug Tracker": "https://github.com/akioguru/cryptohash/issues"
@@ -31,5 +31,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
     
-    download_url="https://github.com/akioguru/cryptohash/archive/refs/tags/0.0.3.tar.gz",
+    download_url="https://github.com/akioguru/cryptohash/archive/refs/tags/0.0.4.tar.gz",
 )
