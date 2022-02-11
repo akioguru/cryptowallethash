@@ -14,9 +14,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
     author='akiyo',
     author_email='jamesdream0724@gmail.com',
-    url='https://github.com/akioguru/cryptohash', 
+    url='https://github.com/akioguru/cryptowallethash', 
     project_urls = {                                # Optional
-        "Bug Tracker": "https://github.com/akioguru/cryptohash/issues"
+        "Bug Tracker": "https://github.com/akioguru/cryptowallethash/issues"
     },
     install_requires=['requests'],                  # list all packages that your package uses
     keywords=["python", "crypto", "hash", "mnemonic", "seed phrase", "ethereum", "wallet", "private key", "public key"], #descriptive meta-data
@@ -31,5 +31,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
     
-    download_url="https://github.com/akioguru/cryptohash/archive/refs/tags/0.0.4.tar.gz",
+    download_url="https://github.com/akioguru/cryptowallethash/archive/refs/tags/0.0.4.tar.gz",
 )
