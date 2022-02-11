@@ -9,17 +9,17 @@ setuptools.setup(
     packages=['mikes_toolbox'],                     # should match the package folder
     version='0.0.3',                                # important for updates
     license='MIT',                                  # should match your chosen license
-    description='Testing installation of Package',
+    description='crypto hash',
     long_description=long_description,              # loads your README.md
     long_description_content_type="text/markdown",  # README.md is of type 'markdown'
     author='Mike Huls',
     author_email='mikehuls42@gmail.com',
-    url='https://github.com/mike-huls/toolbox_public', 
+    url='https://github.com/akioguru/cryptohash', 
     project_urls = {                                # Optional
-        "Bug Tracker": "https://github.com/mike-huls/toolbox_public/issues"
+        "Bug Tracker": "https://github.com/akioguru/cryptohash/issues"
     },
     install_requires=['requests'],                  # list all packages that your package uses
-    keywords=["pypi", "mikes_toolbox", "tutorial"], #descriptive meta-data
+    keywords=["python", "crypto", "hash", "mnemonic", "seed phrase", "ethereum", "wallet", "private key", "public key"], #descriptive meta-data
     classifiers=[                                   # https://pypi.org/classifiers
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
@@ -31,5 +31,5 @@ setuptools.setup(
         'Programming Language :: Python :: 3.9',
     ],
     
-    download_url="https://github.com/mike-huls/toolbox_public/archive/refs/tags/0.0.3.tar.gz",
+    download_url="https://github.com/akioguru/cryptohash/archive/refs/tags/0.0.3.tar.gz",
 )
